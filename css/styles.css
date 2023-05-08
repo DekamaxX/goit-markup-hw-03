@@ -1,0 +1,153 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #212121;
+  background: white;
+  text-decoration: none;
+}
+:root {
+  --color: #212121;
+  --background-color: #ffffff;
+}
+.nav-item {
+  text-decoration: none;
+}
+.main-page {
+  background-color: #2f303a;
+}
+
+.theme-website {
+  font-family: Roboto;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+.name-teamworker {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.17;
+  color: #212121;
+  text-decoration: none;
+}
+.role-name {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.17;
+  color: #757575;
+  text-decoration: none;
+}
+
+.portfolio-item {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  color: #212121;
+  text-decoration: none;
+}
+.portfolio-name {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.87;
+  color: #757575;
+  text-decoration: none;
+}
+
+.logo {
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  color: #000000;
+  text-decoration: none;
+}
+
+.logo-item {
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #2196f3;
+  text-decoration: none;
+}
+.definition {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.definition-item {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.link {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+.contact-item {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #212121;
+  text-decoration: none;
+}
+
+.button-list .button-type:focus,
+.button-list .button-type:hover {
+  background-color: #2196f3;
+  color: white;
+  cursor: pointer;
+}
+
+.contact-item:hover,
+.contact-item:focus,
+.contact-footer:hover,
+.contact-footer:focus {
+  color: #2196f3;
+  text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+.footer {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  background-color: #2f303a;
+}
+.contact-footer {
+  color: #ffffff;
+  text-decoration: none;
+}
+.logo-footer {
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
