@@ -167,7 +167,7 @@ title-lorem {
   height: 294px;
 }
 
-.team-photos {
+.team {
   width: 1600px;
   background-color: #f5f4fa;
 }
@@ -382,7 +382,7 @@ a.button-portfolio:active {
   padding-bottom: 94px;
 }
 
-.team-cards {
+.team-photos {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
