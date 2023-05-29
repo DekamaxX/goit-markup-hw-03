@@ -23,21 +23,27 @@
   </head>
   <body>
     <header class="container">
-      <nav class="container-item">
+      <nav class="navigation-item">
+        <div class="menu">
         <a class="logo" href=""><span class="logo-item">Web</span>Studio</a>
-        <a class="link" href="index.html">Agencja</a>
-        <a class="link" href=""> Portfolio</a>
-        <a class="link" href=""> Kontakt</a>
-      </nav>
-      <div class="container-item">
-        <a class="contact-item" href="mailto:info@example.com">
-          mail info@example.com</a
-        >
-        <a class="contact-item" href="tel:+48111111111"> +48 111 111 111</a>
+        <ul class="nav-list">
+        <li><a class="link" href="index.html">Agencja</a></li>
+        <li><a class="link" href=""> Portfolio</a></li>
+        <li><a class="link" href=""> Kontakt</a></li>
+      </ul>
       </div>
+      <div class="contact-box">
+        <ul class="contacts">
+          <li><a class="contact-item" href="mailto:info@example.com">
+            info@example.com</a
+          ></li>
+          <li><a class="contact-item" href="tel:+48111111111"> +48 111 111 111</a></li>
+        </ul>
+      </div>
+    </nav>
     </header>
     <main>
-      <section class="main-page ">
+      <section class="main-page">
         <h1 class="theme-website">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
         <ul class="button-list">
           <button class="button-type button-item" type="button">
@@ -45,37 +51,48 @@
           </button>
         </ul>
       </section>
-      <div class="container">
-        <dl class="container-item">
-          <dt class="definition">LOREM IPSUM</dt>
-          <dd class="definition-item">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-            arcu sem. Sed non sodales dui. Interdum et malesuada
-          </dd>
-          <dt class="definition">LOREM IPSUM</dt>
-          <dd class="definition-item">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-            arcu sem. Sed non sodales dui. Interdum et malesuada
-          </dd>
-          <dt class="definition">LOREM IPSUM</dt>
-          <dd class="definition-item">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-            arcu sem. Sed non sodales dui. Interdum et malesuada
-          </dd>
-          <dt class="definition">LOREM IPSUM</dt>
-          <dd class="definition-item">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-            arcu sem. Sed non sodales dui. Interdum et malesuada
-          </dd>
-        </dl>
-      </div>
-      <section class="container">
-        <div class="heading">
-          <h2>Czym się zajmujemy</h2>
+      <section class="text-section">
+        <div class="container">
+          <dl class="definition-lorem">
+            <div class="box-lorem">
+              <dt class="definition">LOREM IPSUM</dt>
+              <dd class="definition-item">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </dd>
+            </div>
+            <div class="box-lorem">
+              <dt class="definition">LOREM IPSUM</dt>
+              <dd class="definition-item">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </dd>
+            </div>
+            <div class="box-lorem">
+              <dt class="definition">LOREM IPSUM</dt>
+              <dd class="definition-item">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </dd>
+            </div>
+            <div class="box-lorem">
+              <dt class="definition">LOREM IPSUM</dt>
+              <dd class="definition-item">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </dd>
+            </div>
+          </dl>
         </div>
-        <div class="container-item">
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="heading">
+            <h2>Czym się zajmujemy</h2>
+          </div>
           <ul class="photos">
-            <li class="container-item">
+            <li>
               <img
                 src="./images/box1.jpg"
                 alt="man with computer"
@@ -97,18 +114,19 @@
           </ul>
         </div>
       </section>
-      <section class="container-item">
-        <div class="heading">
-        <h2 class="heading">Nasz zespół</h2>
-        <div class="container">
-          <ul class="photos container-item">
+
+      <section class="team-box">
+        <div class="container team-item">
+          <h2 class="heading-team">Nasz zespół</h2>
+
+          <ul class="team-photos">
             <li>
-              <figure>
+              <figure class="our-team">
                 <img
                   src="./images/team_card_1.jpg"
                   alt="man smile with computer"
                   width="270"
-                  height="368"
+                  height="260"
                 />
                 <figcaption>
                   <p class="name-teamworker">John Doe</p>
@@ -117,12 +135,12 @@
               </figure>
             </li>
             <li>
-              <figure>
+              <figure class="our-team">
                 <img
                   src="./images/team_card_2.jpg"
                   alt="woman smile"
                   width="270"
-                  height="368"
+                  height="260"
                 />
                 <figcaption>
                   <p class="name-teamworker">John Doe</p>
@@ -131,26 +149,26 @@
               </figure>
             </li>
             <li>
-              <figure>
+              <figure class="our-team">
                 <img
                   src="./images/team_card_3.jpg"
                   alt="man smile"
                   width="270"
-                  height="368"
+                  height="260"
                 />
                 <figcaption>
                   <p class="name-teamworker">John Doe</p>
                   <p class="role-name">Marketing</p>
                 </figcaption>
-              </figure>
+              </figure class="our-team">
             </li>
             <li>
-              <figure>
+              <figure class="our-team">
                 <img
                   src="./images/team_card_4.jpg"
                   alt="man with glasses"
                   width="270"
-                  height="368"
+                  height="260"
                 />
                 <figcaption>
                   <p class="name-teamworker">John Doe</p>
@@ -162,17 +180,20 @@
         </div>
       </section>
     </main>
-    <footer class="footer container">
-      <address>
+    <footer class="footer">
+      <div class="container">
+      
         <p class="logo-footer"><span class="logo-item">Web</span>Studio</p>
         <br />
+        <address class="town">
         m. Warszawa, Aleje Jerozolimskie 21<br />
-        <a class="contact-footer" href="mailto:info@example.com">
+        <a class="contact-footer-mail" href="mailto:info@example.com">
           mail info@example.com</a
         >
         <br />
         <a class="contact-footer" href="tel:+48111111111"> +48 111 111 111</a>
       </address>
+    </div>
     </footer>
   </body>
 </html>
